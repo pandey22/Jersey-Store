@@ -1,1 +1,3 @@
-## Your all in one Jersey Store 
+## Welcome to STITCH
+
+- In the world full of western taste, try something Desi
