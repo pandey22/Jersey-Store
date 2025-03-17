@@ -63,7 +63,33 @@ const Product = () => {
                     ))}
                   </div>
               </div>
+              <button className='bg-black text-white px-8 py-3 text-sm active:bg-gray-700 cursor-pointer'>
+                ADD TO CART
+              </button>
+              <hr className='mt-8 sm:w-4/5 border-gray-300' />
+              <div className='text-sm text-gray-500 mt-5 flex flex-col gap-1'>
+                <p>100% Original Product.</p>
+                <p>Cash on Delivery available on this product.</p>
+                <p>Easy return and exchange policy within 7 days.</p>
+
+              </div>
       </div>
+      </div>
+      {/* Description and review section*/}
+      <div className='mt-20'>
+        <div className='flex'>
+          <b className='border px-5 py-3 text-sm'>Description</b>
+          <p className='border px-5 py-3 text-sm'>Reviews(122)</p>
+        </div>
+        <div className='flex flex-col gap-4 border px-6 py-6 text-sm text-gray-500'>
+          <p>
+            The best piece of clothing you will find all over internet, Hand stitched, premium fabric and the best quality thread.
+          </p>
+          <p>
+            These products are tustworthy and can be worn for over 5 year
+          </p>
+
+        </div>
       </div>
     </div>
   ) : <div className='opacity-0'></div>
