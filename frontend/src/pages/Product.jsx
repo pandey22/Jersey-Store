@@ -88,9 +88,9 @@ const Product = () => {
           <p>
             These products are tustworthy and can be worn for over 5 year
           </p>
-
         </div>
       </div>
+      {/* Related Products  */}
     </div>
   ) : <div className='opacity-0'></div>
 }
