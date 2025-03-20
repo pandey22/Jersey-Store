@@ -1,5 +1,6 @@
-import React, { useContext, useEffect } from 'react'
+import React, { useState, useContext, useEffect } from 'react'
 import { ShopContext } from '../context/ShopContext'
+import Title from '../components/Title';
 
 const Cart = () => {
   const {products, currency , cartItems} = useContext(ShopContext);
@@ -21,12 +22,15 @@ const Cart = () => {
         }
       }
     }
-    console.log(tempData);
+    setCartData(tempData);
   },[cartItems])
 
   return (
-    <div>
-      
+    <div className='border-t pt-14'>
+      <div className='text-2xl mb-3'>
+        <Title text1={'YOUR '} text2={'CART'}/>
+
+      </div>
     </div>
   )
 }
